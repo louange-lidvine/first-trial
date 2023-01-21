@@ -1,0 +1,50 @@
+*{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    
+}
+body{
+    background-color:rgb(3, 3, 43);
+    color: white;
+    padding: 300px;
+}
+ .reviews1{
+    background-color: rgb(4, 78, 78);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+
+ }
+ .job{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+ }
+ img{
+    background-position:center ;
+    background-size:cover ;
+    height:200px;
+    width: 200px;
+    border-radius: 100px;
+ }
+ h2{
+    text-align: center;
+    font-size: 40px;
+ }
+ .btn-prev,.btn-next{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: rgb(154, 14, 164);
+    border: none;
+ }
+ #surprise{
+   background-color: none;
+   color: aqua;
+   border: 1px solid;
+ }
